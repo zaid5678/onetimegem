@@ -332,6 +332,26 @@ input, select, textarea {
   }
 }
 
+/* Contact button in desktop nav */
+.nav__links .nav__cta {
+  background-color: var(--gold);
+  border: 1.5px solid var(--gold);
+  color: var(--ink);
+  padding: 0.45rem 1.3rem;
+  letter-spacing: 0.12em;
+  border-bottom: none;
+  line-height: 1;
+  transition: background-color 0.22s ease, border-color 0.22s ease;
+}
+
+.nav__links .nav__cta:hover,
+.nav__links .nav__cta.is-active {
+  background-color: var(--gold-deep);
+  border-color: var(--gold-deep);
+  border-bottom: none;
+  color: var(--ink);
+}
+
 
 /* ─────────────────────────────────────────────
    7. MOBILE NAVIGATION
@@ -424,6 +444,18 @@ input, select, textarea {
 .mobile-nav__links a:hover {
   color: var(--gold-deep);
   background-color: var(--cream-soft);
+}
+
+/* Contact button in mobile nav */
+.mobile-nav__links .nav__cta {
+  background-color: var(--gold);
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.mobile-nav__links .nav__cta:hover {
+  background-color: var(--gold-deep);
+  color: var(--ink);
 }
 
 .mobile-nav__links a:focus-visible {
