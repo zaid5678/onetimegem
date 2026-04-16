@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>One Time GEM — Event Planning Studio, London</title>
+  <meta name="description" content="London-based event planning studio specialising in weddings, corporate events, and private parties. Getting every moment — on the day, and in every detail before it.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="One Time GEM — Event Planning Studio">
+  <meta property="og:description" content="London-based event planning studio. Weddings, corporate events, and private parties. Getting every moment.">
+  <meta property="og:image" content="logo.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- NOTE: Generate apple-touch-icon.png (180×180) from logo.jpg — see README -->
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Fonts — preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- PRODUCTION: Replace with self-hosted @font-face blocks — see README -->
+  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <!-- ── NAVIGATION ─────────────────────────────────────────────────── -->
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="index.html" class="nav__logo" aria-label="One Time GEM — return to home">
+        <img src="logo.jpg" alt="One Time GEM — event planning studio" width="48" height="48">
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="weddings.html">Weddings</a></li>
+        <li><a href="corporate.html">Corporate</a></li>
+        <li><a href="parties.html">Parties</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ── MOBILE NAV ─────────────────────────────────────────────────── -->
+  <div class="mobile-nav" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu" aria-hidden="true">
+    <div class="mobile-nav__inner">
+      <div class="mobile-nav__top">
+        <a href="index.html" aria-label="One Time GEM — home">
+          <img src="logo.jpg" alt="One Time GEM" class="mobile-nav__logo" width="48" height="48">
+        </a>
+        <button class="mobile-nav__close" aria-label="Close navigation menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+            <path d="M18 6L6 18M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      <ul class="mobile-nav__links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="weddings.html">Weddings</a></li>
+        <li><a href="corporate.html">Corporate</a></li>
+        <li><a href="parties.html">Parties</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="mobile-nav__overlay" aria-hidden="true"></div>
+
+  <!-- ── MAIN ───────────────────────────────────────────────────────── -->
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="hero--home" aria-labelledby="hero-heading">
+      <div class="hero__inner">
+        <div class="hero__logo-mark fade-in">
+          <img src="logo.jpg" alt="One Time GEM — event planning studio" width="180" height="180">
+        </div>
+
+        <h1 class="hero__headline fade-in fade-in--delay-1" id="hero-heading">
+          <span class="hero__script">GEM-uinely the best decision</span>
+          <span class="hero__caps">For Your Event</span>
+        </h1>
+
+        <p class="hero__subhead fade-in fade-in--delay-2">Events &middot; Weddings &middot; Corporate &middot; Parties</p>
+
+        <div class="hero__cta fade-in fade-in--delay-3">
+          <a href="contact.html" class="btn btn--solid">Start planning</a>
+          <a href="services.html" class="btn btn--ghost">See our services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRO STRIP -->
+    <section class="section intro-strip" aria-label="Studio introduction">
+      <div class="container container--narrow text-center">
+        <p class="fade-in">
+          One Time GEM is a London-based event studio built on the conviction that the details matter as much as the day itself. We plan and coordinate weddings, corporate events, and private parties — working closely with each client from the first conversation to the final moment.
+          <em>Getting every moment — on the day, and in every detail before it.</em>
+        </p>
+      </div>
+    </section>
+
+    <!-- SERVICE TILES -->
+    <section class="section section--alt section--bordered" aria-labelledby="services-heading">
+      <div class="container">
+        <p class="service-tiles__heading fade-in" id="services-heading">What we do</p>
+        <div class="service-tiles__grid">
+
+          <article class="service-tile fade-in">
+            <p class="service-tile__label">Weddings</p>
+            <p class="service-tile__desc">Full planning, partial planning, and day-of coordination for couples who want nothing left to chance.</p>
+            <a href="weddings.html" class="service-tile__link">
+              Learn more
+              <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true">
+                <path d="M9 1l4 4-4 4M1 5h12" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </article>
+
+          <article class="service-tile fade-in fade-in--delay-1">
+            <p class="service-tile__label">Corporate</p>
+            <p class="service-tile__desc">Brand dinners, product launches, team off-sites, and conferences — handled from brief to breakdown.</p>
+            <a href="corporate.html" class="service-tile__link">
+              Learn more
+              <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true">
+                <path d="M9 1l4 4-4 4M1 5h12" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </article>
+
+          <article class="service-tile fade-in fade-in--delay-2">
+            <p class="service-tile__label">Parties</p>
+            <p class="service-tile__desc">Milestone birthdays, anniversaries, engagements, and private dinners. Celebrations designed around the host.</p>
+            <a href="parties.html" class="service-tile__link">
+              Learn more
+              <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true">
+                <path d="M9 1l4 4-4 4M1 5h12" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </article>
+
+          <article class="service-tile fade-in fade-in--delay-3">
+            <p class="service-tile__label">Events</p>
+            <p class="service-tile__desc">Something that doesn't fit a category? We work with clients on bespoke projects — tell us what you have in mind.</p>
+            <a href="contact.html" class="service-tile__link">
+              Get in touch
+              <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true">
+                <path d="M9 1l4 4-4 4M1 5h12" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SIGNATURE MOMENTS — TESTIMONIALS -->
+    <section class="section testimonials section--bordered" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <p class="testimonials__label fade-in" id="testimonials-heading">In their words</p>
+        <div class="testimonials__grid">
+
+          <figure class="testimonial fade-in">
+            <span class="testimonial__mark" aria-hidden="true">"</span>
+            <blockquote>
+              <p class="testimonial__body">From the first call to the final dance, every detail was handled with such care. We still can't believe how smooth the day was.</p>
+            </blockquote>
+            <figcaption class="testimonial__cite"><!-- [CLIENT TO REPLACE: Client name · Event type · Year] -->[CLIENT TO REPLACE]</figcaption>
+          </figure>
+
+          <figure class="testimonial fade-in fade-in--delay-1">
+            <span class="testimonial__mark" aria-hidden="true">"</span>
+            <blockquote>
+              <p class="testimonial__body">We brought them the brief on a Tuesday. By Thursday we had a plan that our team is still talking about.</p>
+            </blockquote>
+            <figcaption class="testimonial__cite"><!-- [CLIENT TO REPLACE: Client name · Event type · Year] -->[CLIENT TO REPLACE]</figcaption>
+          </figure>
+
+          <figure class="testimonial fade-in fade-in--delay-2">
+            <span class="testimonial__mark" aria-hidden="true">"</span>
+            <blockquote>
+              <p class="testimonial__body">They found a venue we didn't know existed, negotiated everything, and made us feel entirely at ease throughout.</p>
+            </blockquote>
+            <figcaption class="testimonial__cite"><!-- [CLIENT TO REPLACE: Client name · Event type · Year] -->[CLIENT TO REPLACE]</figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BAND -->
+    <section class="cta-band" aria-label="Call to action">
+      <div class="container">
+        <p class="cta-band__heading fade-in">Planning something worth remembering?</p>
+        <a href="contact.html" class="btn btn--solid fade-in fade-in--delay-1">Get in touch</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────── -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer__inner">
+
+      <div class="footer__brand">
+        <a href="index.html" aria-label="One Time GEM — home">
+          <img src="logo.jpg" alt="One Time GEM" class="footer__logo">
+        </a>
+        <p class="footer__tagline">Getting Every Moment</p>
+        <p class="footer__location">London, UK &middot; Available to travel</p>
+      </div>
+
+      <nav aria-label="Footer navigation">
+        <p class="footer__nav-heading">Pages</p>
+        <ul class="footer__links" role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="weddings.html">Weddings</a></li>
+          <li><a href="corporate.html">Corporate</a></li>
+          <li><a href="parties.html">Parties</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__contact-col">
+        <p class="footer__nav-heading">Contact</p>
+        <ul class="footer__contact-list" role="list">
+          <li><a href="mailto:onetimegemsupport@gmail.com">onetimegemsupport@gmail.com</a></li>
+          <li><a href="tel:+447897144388">07897 144388</a></li>
+        </ul>
+        <div class="footer__socials" role="list" aria-label="Social media links">
+          <a href="https://instagram.com/onetimegem" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="One Time GEM on Instagram" role="listitem">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+            </svg>
+          </a>
+          <a href="https://tiktok.com/@onetimegem" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="One Time GEM on TikTok" role="listitem">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/>
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61573222525216" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="One Time GEM on Facebook" role="listitem">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2026 One Time GEM. All rights reserved.</p>
+      <p>London based &middot; Available to travel</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

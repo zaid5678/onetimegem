@@ -1,0 +1,22 @@
+{
+  "name": "One Time GEM",
+  "short_name": "One Time GEM",
+  "description": "London-based event planning studio. Getting Every Moment.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5EBDD",
+  "theme_color": "#C9A24B",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

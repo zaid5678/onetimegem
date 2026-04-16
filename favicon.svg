@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" fill="#F5EBDD"/>
+  <!-- Diamond / gem shape matching the logo illustration -->
+  <polygon points="16,4 23,12 16,28 9,12" fill="#C9A24B"/>
+  <polygon points="16,4 23,12 16,16" fill="#A07F33" opacity="0.6"/>
+  <polygon points="9,12 16,16 16,28" fill="#A07F33" opacity="0.3"/>
+  <polyline points="9,12 23,12" stroke="#F5EBDD" stroke-width="0.8" fill="none"/>
+</svg>
