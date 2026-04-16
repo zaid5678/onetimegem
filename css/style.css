@@ -1690,7 +1690,7 @@ a, button {
 }
 
 /* Override for inline text links */
-p a, li a, .service-tile__link, .service-section__link,
+p a, .service-tile__link, .service-section__link,
 .wedding-tier__note a, .faq-item__a a,
 .contact-detail-item__text a, .footer__links a,
 .footer__contact-list a {
